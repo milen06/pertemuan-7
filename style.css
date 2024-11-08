@@ -1,0 +1,91 @@
+body{
+    background-color: #151e33;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 12px 20px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.navbar .logo{
+    font-size: 12px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    margin: 30px 20px;
+}
+
+.header .left{
+    color: white;
+}
+
+.header .left .job{
+    color: rgb(52, 143, 255);
+}
+
+.header h1{
+    margin: -10px 0;
+}
+
+.header .desc{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.icons a{
+    color: rgb(52, 143, 255);
+    border: 1px solid rgb(52, 143, 255);
+    padding: 8px;
+    border-radius: 99px;
+    margin-right: 12px;
+    transition: 0.3s;
+}
+
+.icons{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: rgb(52, 143, 255);
+    padding: 10px 16px;
+    border-radius: 99px;
+    border: none;
+    transition: 0.3s;
+    border: 1px solid rgb(52, 143, 255);
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: rgb(52, 143, 255);
+}
+
+.icons a:hover {
+    background-color: rgb(52, 143, 255);
+    color: white;
+    position: relative;
+    top: -5px;
+}
+
+.btn:hover {
+    background: none;
+    color: rgb(52, 143, 255);
+}
